@@ -13,7 +13,7 @@ class AirFoil(BaseModel):
     suction: float
 
 
-model = load("rf_nodel.joblib")
+model = load("rf_model.pkl")
 
 
 
